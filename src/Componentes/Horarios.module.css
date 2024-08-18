@@ -1,0 +1,49 @@
+.horarios{
+  margin-top: 5rem;
+}
+
+.cardMarcados{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardMarcados > div{
+  display: flex;
+  align-items: center;
+  gap:.5rem;
+}
+
+.cardMarcados{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.ligth {
+  color: #98959D;
+}
+
+.horariosManha {
+  border-radius: 8px;
+  margin: 2rem 0;
+  background-color: #23242C;
+  margin-top: 4rem;
+}
+
+
+
+.cardMarcados{
+  padding: 20px 30px;
+}
+
+.topoHorario {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  padding: 15px 30px;
+  border-bottom: 2px solid #ccc;
+}

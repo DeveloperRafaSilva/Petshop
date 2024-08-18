@@ -1,0 +1,108 @@
+.Topo h2{
+  color: #fff;
+}
+
+.Topo p {
+  color:#98959D ;
+  margin: .5rem 0;
+}
+
+.ModalContainer {
+  left: 25%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  top: 2%;
+  position: fixed;
+  padding: 2rem ;
+  border-radius: 8px;
+  background-color: #23242C;
+}
+
+
+.formCadastro {
+  margin-top: 2rem;
+}
+
+.formCadastro label{
+  display: block;
+  margin: .5rem 0;
+  color: #fff;
+}
+
+.divInputs {
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.formCadastro input, textarea {
+  max-width: calc(400px - 4rem );
+  width: 100%;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4rem 1.9rem;
+  background-color: transparent;
+  border: 1px solid #98959D;
+}
+
+.dadosHorario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.dadosHorario select {
+  border-radius: 8px;
+  color: #98959D;
+  margin-right: 1.5rem;
+  padding: .4rem 2rem;
+  background-color: transparent;
+  border: 1px solid #98959D;
+}
+
+
+textarea {
+  border-radius: 8px;
+  resize: none;
+  width: 100%;
+  max-width: 336px !important;
+}
+
+.formCadastro img {
+  position: absolute;
+  top: 2rem;
+  left: 4px;
+}
+.horarioIcone  {
+  position: absolute;
+  top: .4rem;
+  left: 6px;
+}
+
+@media(max-width:700px){
+  .ModalContainer{
+    left: 10%;
+  }
+}
+@media(max-width:550px){
+  .ModalContainer{
+    padding: .5rem;
+    left: 0%;
+  }
+}
+
+.btnAgendar {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: end;
+  margin-right: -20px;
+}
+
+.btnAgendar button {
+  background-color: #9282FA;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: .7rem 1.5rem;
+}

@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #1E1E1E;
+}
+
+.logo {
+  background-color: #2E2C30;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 0 8px 8px 0;
+}
+
+.topoAgenda {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topoAgenda h2 {
+  color: #fff;
+}
+
+.topoAgenda p {
+  color: #98959D;
+  margin-top: .8rem;
+  width: 45ch;
+}
+
+.containerAgendamento {
+  padding: 2rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 5rem auto;
+}
+
+.topoAgenda {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.localAgendamentos {
+  height: 30vh;
+}
+
+.btnAgendar {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: end;
+}
+
+.btnAgendar button {
+  background-color: #9282FA;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: .7rem 1.5rem;
+}
