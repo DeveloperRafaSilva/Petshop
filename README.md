@@ -1,8 +1,12 @@
-# React + Vite
+## Rodando o `json-server`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Após clonar o repositório e instalar as dependências, você pode iniciar o `json-server` com o seguinte comando:
 
-Currently, two official plugins are available:
+```bash
+npm run start:json-server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+![Home agendamento](https://github.com/user-attachments/assets/01149ef2-88c4-4eb6-81a8-18943f5dbebe)
+![Captura de tela 2024-08-18 174928](https://github.com/user-attachments/assets/abe1f7ce-7cc5-4840-bfde-5bcbb7078b45)
+![Captura de tela 2024-08-18 174840](https://github.com/user-attachments/assets/12591195-8a10-4fca-a90c-d0a4862fab78)
+![Agendamentos](https://github.com/user-attachments/assets/31d883eb-0911-4cf8-a1cb-eda7bc05a48b)
